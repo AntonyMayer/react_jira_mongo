@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import TablesWidget from './components/w_table';
 import registerServiceWorker from './registerServiceWorker';
-import './style.css';
+import './scss/b_body.css';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<TablesWidget />, document.getElementById('root'));
 registerServiceWorker();

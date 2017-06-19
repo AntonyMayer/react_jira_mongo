@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import '../scss/w_table.css';
 
-class App extends Component {
+class TablesWidget extends Component {
   render() {
     return (
       <div className="app">
@@ -10,4 +11,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default TablesWidget;
