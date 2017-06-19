@@ -4,11 +4,12 @@ import '../scss/w_table.css';
 
 class TablesWidget extends Component {
     render() {
-        let test = false;
+        let test = true;
         if (test) {
             return ( 
                 <div className = "app" >
-                  True~ {JSON.stringify(test)}!
+                  True~ {JSON.stringify(test)}! {this.props.name} <br/>
+                  {new Date().toLocaleTimeString()}
                 </div>
             );
         } else {
