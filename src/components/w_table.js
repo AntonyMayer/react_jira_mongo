@@ -1,5 +1,6 @@
 // @flow
 import React, { Component } from 'react';
+import ButtonTables from './w_button';
 import '../scss/w_table.css';
 
 class TablesWidget extends Component {
@@ -25,8 +26,11 @@ class TablesWidget extends Component {
     render() {
         if (this.props.test === "visible") {
             return ( 
-                <div className = "app" >
-                  True! {this.state.date.toLocaleTimeString()}
+                <div>
+                  <div className = "app" >
+                    True! {this.state.date.toLocaleTimeString()}
+                  </div>
+                  <ButtonTables />
                 </div>
             );
         } else {
