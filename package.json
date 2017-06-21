@@ -1,15 +1,33 @@
 {
   "name": "jirascope",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonyMayer/react_jira_mongo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AntonyMayer/node_server_jira_info/issues"
+  },
+  "keywords": [
+    "node",
+    "jira",
+    "react",
+    "mongod"
+  ],
+  "author": "Anton Kuzniatsou",
+  "license": "ISC",
   "devDependencies": {
     "flow-bin": "^0.48.0",
     "node-sass-chokidar": "0.0.3",
-    "react-scripts": "1.0.7"
+    "react-scripts": "1.0.7",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-ws": "^3.0.0",
+    "mongodb": "^2.2.28"
   },
   "scripts": {
     "dev": "react-scripts start",
