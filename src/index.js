@@ -12,7 +12,6 @@ registerServiceWorker();
 
 
 document.getElementById('test').addEventListener('click', function() {
-    console.log('this');
     let data = 'lorem';
 
         fetch(`/update`, {
